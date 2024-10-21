@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación Vertical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para la barra de navegación */
+        .navbar {
+            width: 250px; /* Ancho de la barra de navegación */
+            background: #3498db; /* Color de fondo de la barra */
+            height: 100vh; /* Altura completa de la ventana */
+            padding-top: 20px;
+            position: fixed; /* Mantener la barra fija al lado izquierdo */
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilo para los elementos de la lista */
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            margin: 10px 0;
+        }
+
+        /* Estilo para los enlaces */
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+
+        /* Efecto hover para cambiar el fondo */
+        .navbar ul li a:hover {
+            background: #217dbb;
+        }
+
+        /* Estilo para el contenido de la página */
+        .content {
+            margin-left: 270px; /* Ajustar el margen izquierdo para evitar superposición */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de Navegación Vertical -->
+    <div class="navbar">
+        <ul>
+            <li><a href="./page_1.html">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h1>Bienvenido a mi sitio web</h1>
+        <p>Este es un ejemplo de un menú de navegación vertical.</p>
+        <p>Añade más contenido aquí para ver cómo se ajusta el diseño.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: url('../img/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+/* Estilo para la barra de navegación */
+.navbar {
+    width: 250px; /* Ancho de la barra de navegación */
+    background: #ff921e; /* Color de fondo de la barra */
+    height: 100vh; /* Altura completa de la ventana */
+    padding-top: 10px;
+    position: fixed; /* Mantener la barra fija al lado izquierdo */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar img{
+    width: 200px;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+/* Estilo para los elementos de la lista */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+/* Estilo para los enlaces */
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+/* Efecto hover para cambiar el fondo */
+.navbar ul li a:hover {
+    background: #383838;
+}
+
+.overlay {
+    background-color: rgba(235, 235, 235, 0.85); /* Fondo blanco con 80% de transparencia */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
